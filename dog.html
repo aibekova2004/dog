@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css"></head><body><header id="header" class="py-5">
+    <div class="container">
+        <div class="header d-flex align-items-center justify-content-between">
+            <div>
+                <select class="select-sort" >
+                    <option value=""></option>
+                </select>
+                <select class="select-reg">
+                    <option value="Asia">Asia</option>
+                    <option value="Europe">Europe</option>
+                    <option value="Americas">Americas</option>
+                    <option value="Africa">Africa</option>
+                    <option value="Oceania">Oceania</option>
+                </select>
+                <select class="select-opt">
+<!--                    <option value="${el}"></option>-->
+                </select>
+            </div>
+            <div class="d-flex">
+                <input type="text" class="search-input form-control mx-2">
+                <button class="search-btn btn btn-success">search</button>
+            </div>
+            <div class="select-nav">
+                <a href="index.html">Home</a>
+                <a href="user.html">User</a>
+                <a href="dog.html">Dog</a>
+            </div>
+        </div>
+    </div>
+</header>
+<section>
+    <div class="container">
+        <div class="breeds"></div>
+        <div class="breed-img"></div>
+    </div></section><script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+<script src="dog.js"></script>
+</body>
+</html>
+

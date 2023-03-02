@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+body {
+    background-color: #b41fdc;
+    font-family: 'Philosopher',
+    sans-serif;
+}
+
+
+.container {
+    width: 90%;
+    margin: 0 auto;
+}
+#header {
+    background: transparent;
+    z-index: 10;
+}
+.header-nav {
+    margin-right: 300px;
+}
+.select-sort {
+    margin-left: 10px;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+.select-reg {
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+
+
+
+.row img {
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+.select-nav a {
+    padding: 0 20px;
+    color: white;
+    font-size: 20px;
+}
+.user {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.phon {
+    color: #050505;
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.breeds {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 5%;
+}
+
+.breed-img {
+    padding: 20px 0;
+}
+.breed-img img {
+    width: 40%;
+    height: 200px;
+    object-fit: contain;
+}
+.breed-img {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.select-opt {
+    padding: 5px 0;
+    border-radius: 5px;
+}
